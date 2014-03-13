@@ -4,7 +4,7 @@ This git repository helps you get up and running quickly with a Tomcat 7.0.42 in
 
 Create a Do It Yourself (DIY) app on OpenShift
 ----------------------------------------------
-<a href="http://openshift.redhat.com/">Create an account</a> and install the <a href="https://www.openshift.com/get-started">command-line client tools</a>.
+<a href="https://www.openshift.com/">Create an account</a> and install the <a href="https://www.openshift.com/get-started">command-line client tools</a>.
 
 Create a DIY application:
     rhc app create tomcat diy-0.1
