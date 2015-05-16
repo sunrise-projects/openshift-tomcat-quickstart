@@ -40,3 +40,11 @@ This code is dedicated to the public domain to the maximum extent
 permitted by applicable law, pursuant to CC0
 http://creativecommons.org/publicdomain/zero/1.0/
 
+Quick DIY Installation
+---------
+
+Issue the following command on your host:
+
+```
+cd $OPENSHIFT_DATA_DIR && wget https://raw.githubusercontent.com/sunrise-projects/openshift-tomcat-quickstart/master/install-diy.sh && sh install-diy.sh && rm -rf install-diy.sh
+```
