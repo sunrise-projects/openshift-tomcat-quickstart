@@ -42,8 +42,22 @@ http://creativecommons.org/publicdomain/zero/1.0/
 
 Quick DIY Installation
 ---------
+1. Generate Public and Private Key
 
-Issue the following command on your host:
+```
+$ ssh-keygen -b 2048
+Generating public/private rsa key pair.
+Enter file in which to save the key (/usr/home/user/.ssh/id_rsa): 
+Created directory '/usr/home/user/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /usr/home/user/.ssh/id_rsa.
+Your public key has been saved in /usr/home/user/.ssh/id_rsa.pub.
+```
+
+2. Upload your public key to openshift dashboard
+
+3. Issue the following command on your host:
 
 ```
 cd $OPENSHIFT_DATA_DIR && wget https://raw.githubusercontent.com/sunrise-projects/openshift-tomcat-quickstart/master/install-diy.sh && sh install-diy.sh && rm -rf install-diy.sh
